@@ -9,8 +9,8 @@ const productSchema = new mongoose.Schema(
         rating:{type:Number ,require: true},
         description:{type:String },
         discount:{type:  Number},
-        selled:{type:   Number}
-
+        selled:{type:   Number},
+        
     },
     {
         timestamps:true
